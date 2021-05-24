@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=, initial-scale=1.0" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link rel=stylesheet href="css/style.css" />
 	<link
 		href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
 		rel="stylesheet" />
@@ -14,27 +15,35 @@
 </head>
 
 <body>
-	<header>
-		<div>
-			<img src="/img/Logo.png" />
-		</div>
-		<div>
-			<nav>
-				<a href="#">HOME</a>
-				<a href="#">ABOUT</a>
-				<a href="#">WORK</a>
-				<a href="#">BLOG</a>
-				<a href="#">CONTACT</a>
-			</nav>
-		</div>
-		<div>
-			<p>
-				Hi there! We are the new kids on the block and we build awesome
-				websites and mobile apps.
-			</p>
-		</div>
-		<div>
-			<button>WORK WITH US!</button>
+
+	<!--Header-->
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo">
+					<img src="/img/Logo.png" />
+				</div>
+
+				<nav class="nav">
+					<a class="nav__link" href="#">HOME</a>
+					<a class="nav__link" href="#">ABOUT</a>
+					<a class="nav__link" href="#">WORK</a>
+					<a class="nav__link" href="#">BLOG</a>
+					<a class="nav__link" href="#">CONTACT</a>
+				</nav>
+			</div>
+
+			<!--Intro-->
+
+			<div class="intro">
+				<div class="intro__inner">
+					<h1 class="intro__title">
+						Hi there! We are the new kids on the block <br>
+						and we build awesome websites and mobile apps.
+					</h1>
+				</div>
+				<a class="btn  btn--red" href="#">WORK WITH US!</a>
+			</div>
 		</div>
 	</header>
 	<div>
