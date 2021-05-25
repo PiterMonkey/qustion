@@ -84,15 +84,15 @@ h6 {
 
 .container {
 	width: 100%;
-	height: 595px;
 	max-width: 1440px;
 	margin: 0 auto;
-	background-color: #87509c;
 }
 
 /*---Header--*/
 
 .header {
+	height: 595px;
+	background-color: #87509c;
 }
 
 .header__inner {
@@ -150,7 +150,6 @@ h6 {
 .intro__title {
 	font-family: "Titillium Web", sans-serif;
 	font-size: 41px;
-	line-height: 49px;
 	color: #ffffff;
 	font-weight: 600;
 	letter-spacing: normal;
@@ -167,7 +166,7 @@ h6 {
 	margin: 54px 378px 0 550px;
 	border-radius: 4px;
 	font-family: "TitilliumWeb-SemiBold", sans-serif;
-	font-size: 17.5px;
+	font-size: 17px;
 	color: #ffffff;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -183,4 +182,101 @@ h6 {
 
 .btn--red {
 	background-color: #eb7d4b;
+}
+
+/*--title--*/
+
+.title {
+	font-family: "Titillium Web", sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.75;
+	letter-spacing: 4px;
+	text-align: center;
+	padding-top: 120px;
+	margin-bottom: 21px;
+}
+
+.line {
+	border-bottom: 4px solid;
+	width: 87px;
+	opacity: 0.15;
+	background-color: #000000;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subtitle {
+	margin-top: 23px;
+	font-family: "TitilliumWeb-Regular", sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.44;
+	letter-spacing: 0.36px;
+	text-align: center;
+}
+
+/*---services---*/
+
+.services {
+	background-color: #17c2a4;
+	height: 747px;
+}
+
+.title__white {
+	color: #ffffff;
+}
+
+.subtitle__white {
+	color: #ffffff;
+}
+
+.services__toll {
+	margin-top: 324px;
+	margin-bottom: 125;
+}
+
+.services__item {
+	display: inline-block;
+	width: 24%;
+	padding-top: 62px;
+	padding-bottom: 130px;
+	text-align: center;
+}
+
+.services__icon {
+	padding-bottom: 62px;
+}
+
+.services__title {
+	height: 18px;
+	font-size: 24px;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.75;
+	letter-spacing: 0.48px;
+	text-align: left;
+	color: #ffffff;
+	margin-bottom: 27px;
+	text-align: center;
+}
+
+.services__text {
+	font-family: "Titillium Web-Light", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.32px;
+	text-align: center;
+	color: #ffffff;
 }
