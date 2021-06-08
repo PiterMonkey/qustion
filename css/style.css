@@ -93,13 +93,11 @@ body {
 
 /*---Header--*/
 
-.page1 {
-	height: 600px;
-	background-color: #87509c;
-	background-size: cover;
-}
-
 .header {
+	width: 100%;
+	max-width: 1440px;
+	background-color: #87509c;
+	height: 600px;
 }
 
 .header__inner {
@@ -160,7 +158,6 @@ nav a {
 .intro__title {
 	margin-bottom: 60px;
 	padding-top: 100px;
-	font-family: "Titillium Web", sans-serif;
 	font-size: 41px;
 	color: #ffffff;
 	font-weight: 700;
@@ -235,6 +232,8 @@ nav a {
 /*---services---*/
 
 .services {
+	width: 100%;
+	max-width: 1440px;
 	background-color: #17c2a4;
 	height: 750px;
 }
@@ -294,6 +293,8 @@ div .services__toll {
 /*---team---*/
 
 .team {
+	width: 100%;
+	max-width: 1440px;
 	background-color: #e7f1f8;
 	height: 915px;
 }
@@ -350,4 +351,137 @@ div .services__toll {
 
 .social__link a {
 	margin: 0 4px;
+}
+
+/*----skills----*/
+
+.skills {
+	width: 100%;
+	max-width: 1440px;
+	background-color: #ffffff;
+	height: 655px;
+}
+
+/*----circle----*/
+
+.block__circle {
+	margin-top: 65px;
+}
+
+.flex-wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.single-chart {
+	width: 33%;
+	justify-content: space-around;
+}
+
+.circular-chart {
+	display: block;
+	margin: 10px auto;
+	max-width: 70%;
+	max-height: 250px;
+}
+
+.circle-bg {
+	fill: none;
+	stroke: #eee;
+	stroke-width: 3.8;
+}
+
+.circle {
+	fill: none;
+	stroke-width: 2.8;
+	stroke-linecap: round;
+	animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+	0% {
+		stroke-dasharray: 0 100;
+	}
+}
+
+.circular-chart.orange .circle {
+	stroke: #eb7d4b;
+}
+
+.circular-chart.green .circle {
+	stroke: #15c7a8;
+}
+
+.circular-chart.blue .circle {
+	stroke: #30bae7;
+}
+
+.circular-chart.rose .circle {
+	stroke: #d74680;
+}
+
+.percentage {
+	fill: #666;
+	font-family: sans-serif;
+	font-size: 0.5em;
+	text-anchor: middle;
+}
+
+.circle__text {
+	margin-top: 20px;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #3c4761;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*----portfolio----*/
+
+.portfolio {
+	width: 100%;
+	max-width: 1440px;
+	background-color: #ffdd99;
+	height: 1430px;
+}
+
+.title__gray {
+	color: #393939;
+}
+
+.subtitle__gray {
+	color: #393939;
+}
+
+/*----radio-btn----*/
+
+.prod_checbox strong {
+	color: #393939;
+	display: inline-block;
+}
+
+.radio-toolbar input[type="radio"] {
+	display: none;
+}
+
+.radio-toolbar label {
+	font-size: 17px;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 400;
+	line-height: 1.11;
+	letter-spacing: 0.36px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #b1996b;
+	margin-right: 10px;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+	background-color: #fafafa;
+}
+
+.radio-toolbar label:hover {
+	opacity: 0.7;
 }
