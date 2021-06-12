@@ -621,6 +621,7 @@ div .services__toll {
 	font-weight: 400;
 	color: #ffffff;
 	padding-left: 25px;
+	opacity: 0.75;
 }
 
 .form input[type="text"]:focus {
@@ -647,6 +648,7 @@ div .services__toll {
 	color: #ffffff;
 	padding-left: 25px;
 	padding-top: 25px;
+	opacity: 0.75;
 }
 
 .form textarea[type="text"]:focus {
@@ -655,6 +657,7 @@ div .services__toll {
 	font-weight: 400;
 	color: #ffffff;
 	padding-left: 25px;
+	padding-top: 25px;
 }
 
 .send {
